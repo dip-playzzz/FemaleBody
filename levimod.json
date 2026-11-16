@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "femalebody",
+  "version": "0.1.0",
+  "minecraft_versions": [
+    "1.26.6X.X"
+  ],
+  "info": {
+    "name": "FemaleBody",
+    "author": "dip-playzzz",
+    "description": "Customizable body model with bounce physics for Minecraft Bedrock (visual only).",
+    "homepage_url": "https://github.com/dip-playzzz/FemaleBody",
+    "icon": "assets/icon.png",
+    "tags": [
+      "Visual"
+    ]
+  },
+  "release_assets": {
+    "include": [
+      "*.levipack",
+      "*.so"
+    ],
+    "labels": {
+      "FemaleBody.levipack": "LeviPack",
+      "libFemaleBody.so": "Native library"
+    }
+  }
+}
